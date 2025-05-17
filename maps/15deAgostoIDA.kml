@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>15deAgostoIDA</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Paraderos</name>
+      <Placemark>
+        <name>Los Alpes</name>
+        <description>Paradero 1</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.49428,-16.415224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roma</name>
+        <description>Paradero 2</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.494157,-16.416506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jorge Chavez</name>
+        <description>Paradero 3</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.495928,-16.41674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mariscal Castilla</name>
+        <description>Paradero 4</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.496591,-16.416825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Posta de Salud</name>
+        <description>Paradero 5</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.500701,-16.413102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av Argentina</name>
+        <description>Paradero 6</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.50265,-16.411832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pte. Santa Rosa</name>
+        <description>Paradero 7</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.505018,-16.410201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Capilla Santa Rosa</name>
+        <description>Paradero 8</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.508908,-16.407636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Comandante Canga</name>
+        <description>Paradero 9</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.510465,-16.406645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plazuela Cesar Vallejo</name>
+        <description>Paradero 10</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.512523,-16.405289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lima</name>
+        <description>Paradero 11</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.513852,-16.404452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Altiplano</name>
+        <description>Paradero 12</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.516451,-16.402827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Teniente Palacios</name>
+        <description>Paradero 13</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.518102,-16.401688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Independencia</name>
+        <description>Paradero 14</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.521521,-16.399431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Salle</name>
+        <description>Paradero 15</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.524453,-16.401884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paucarpata</name>
+        <description>Paradero 16</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.52742,-16.404287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Victor Lira</name>
+        <description>Paradero 17</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.530622,-16.406948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Garci de Carbajal</name>
+        <description>Paradero 18</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.532894,-16.408763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mayta Capac</name>
+        <description>Paradero 19</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.533936,-16.407692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Victor Lira</name>
+        <description>Paradero 20</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -71.531662,-16.405893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Ruta IDA</name>
+      <Placemark>
+        <name>Ruta IDA</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -71.49428,-16.41521,0
+            -71.49421,-16.41571,0
+            -71.49419,-16.41585,0
+            -71.49412,-16.41622,0
+            -71.4941,-16.41649,0
+            -71.4941,-16.41651,0
+            -71.49501,-16.41663,0
+            -71.49595,-16.41676,0
+            -71.49595,-16.41674,0
+            -71.49595,-16.41676,0
+            -71.49664,-16.41686,0
+            -71.49669,-16.41675,0
+            -71.49676,-16.4166,0
+            -71.49681,-16.41652,0
+            -71.49691,-16.41629,0
+            -71.49692,-16.41626,0
+            -71.49702,-16.41599,0
+            -71.49714,-16.41566,0
+            -71.49715,-16.41565,0
+            -71.4972,-16.41556,0
+            -71.49726,-16.41548,0
+            -71.4974,-16.41534,0
+            -71.49749,-16.41528,0
+            -71.49751,-16.41526,0
+            -71.49761,-16.4152,0
+            -71.49831,-16.41473,0
+            -71.49877,-16.41443,0
+            -71.49901,-16.41428,0
+            -71.49928,-16.41409,0
+            -71.49988,-16.4137,0
+            -71.50043,-16.41333,0
+            -71.50084,-16.41305,0
+            -71.50103,-16.41293,0
+            -71.50163,-16.41252,0
+            -71.50192,-16.41235,0
+            -71.50222,-16.41215,0
+            -71.50268,-16.41187,0
+            -71.50278,-16.41181,0
+            -71.50283,-16.41175,0
+            -71.50335,-16.41139,0
+            -71.5037,-16.41115,0
+            -71.50396,-16.41098,0
+            -71.50416,-16.41084,0
+            -71.50428,-16.41076,0
+            -71.50444,-16.41065,0
+            -71.50465,-16.41053,0
+            -71.50495,-16.41037,0
+            -71.50495,-16.41034,0
+            -71.50495,-16.41033,0
+            -71.50496,-16.41032,0
+            -71.50496,-16.4103,0
+            -71.50497,-16.41029,0
+            -71.50498,-16.41028,0
+            -71.50501,-16.41024,0
+            -71.50536,-16.41002,0
+            -71.50564,-16.40985,0
+            -71.50572,-16.40979,0
+            -71.50577,-16.40975,0
+            -71.50632,-16.4094,0
+            -71.50672,-16.40914,0
+            -71.50727,-16.40876,0
+            -71.50748,-16.40861,0
+            -71.50756,-16.40857,0
+            -71.50803,-16.40831,0
+            -71.50806,-16.40829,0
+            -71.50824,-16.40816,0
+            -71.50876,-16.40777,0
+            -71.50881,-16.40775,0
+            -71.50893,-16.40767,0
+            -71.50931,-16.40742,0
+            -71.50972,-16.40717,0
+            -71.51016,-16.40688,0
+            -71.51041,-16.40672,0
+            -71.51046,-16.4067,0
+            -71.51064,-16.40658,0
+            -71.51078,-16.40649,0
+            -71.51143,-16.40605,0
+            -71.51172,-16.40586,0
+            -71.512,-16.40569,0
+            -71.51237,-16.40544,0
+            -71.51252,-16.40534,0
+            -71.51262,-16.40528,0
+            -71.51301,-16.40502,0
+            -71.51314,-16.40494,0
+            -71.51323,-16.40488,0
+            -71.51369,-16.40458,0
+            -71.51383,-16.40448,0
+            -71.514,-16.40442,0
+            -71.51441,-16.40414,0
+            -71.51487,-16.40384,0
+            -71.51526,-16.4036,0
+            -71.5154,-16.4035,0
+            -71.51561,-16.40337,0
+            -71.51595,-16.40315,0
+            -71.51605,-16.40308,0
+            -71.51612,-16.40304,0
+            -71.51618,-16.40301,0
+            -71.51625,-16.40298,0
+            -71.51632,-16.40297,0
+            -71.51633,-16.40296,0
+            -71.51634,-16.40296,0
+            -71.51635,-16.40295,0
+            -71.51641,-16.4029,0
+            -71.51644,-16.40287,0
+            -71.51651,-16.40282,0
+            -71.51671,-16.40266,0
+            -71.51709,-16.40241,0
+            -71.51738,-16.40222,0
+            -71.51746,-16.40217,0
+            -71.51754,-16.40212,0
+            -71.51776,-16.40197,0
+            -71.51782,-16.40193,0
+            -71.51789,-16.40187,0
+            -71.51812,-16.40171,0
+            -71.51817,-16.40167,0
+            -71.51825,-16.40162,0
+            -71.51832,-16.40157,0
+            -71.5187,-16.40131,0
+            -71.51894,-16.40114,0
+            -71.51923,-16.40095,0
+            -71.51962,-16.4007,0
+            -71.52,-16.40047,0
+            -71.5203,-16.40028,0
+            -71.52037,-16.40023,0
+            -71.52044,-16.40019,0
+            -71.52085,-16.39992,0
+            -71.52099,-16.39983,0
+            -71.52132,-16.39961,0
+            -71.52158,-16.39942,0
+            -71.52163,-16.39951,0
+            -71.52171,-16.3996,0
+            -71.52175,-16.39965,0
+            -71.52184,-16.39975,0
+            -71.52194,-16.39986,0
+            -71.52214,-16.40003,0
+            -71.52231,-16.40017,0
+            -71.52241,-16.40026,0
+            -71.52244,-16.40028,0
+            -71.52273,-16.40051,0
+            -71.52286,-16.40063,0
+            -71.52311,-16.40083,0
+            -71.52331,-16.40099,0
+            -71.52348,-16.40113,0
+            -71.52384,-16.40143,0
+            -71.5242,-16.40172,0
+            -71.52443,-16.40191,0
+            -71.52446,-16.40193,0
+            -71.52452,-16.40198,0
+            -71.52453,-16.40199,0
+            -71.52501,-16.40237,0
+            -71.52505,-16.4024,0
+            -71.52509,-16.40244,0
+            -71.52512,-16.40246,0
+            -71.52569,-16.40293,0
+            -71.52611,-16.40326,0
+            -71.52736,-16.40429,0
+            -71.52742,-16.40433,0
+            -71.52754,-16.40443,0
+            -71.52807,-16.40486,0
+            -71.52867,-16.40536,0
+            -71.52892,-16.40558,0
+            -71.52904,-16.40567,0
+            -71.52924,-16.40583,0
+            -71.52931,-16.40589,0
+            -71.52963,-16.40616,0
+            -71.5297,-16.40622,0
+            -71.52977,-16.40627,0
+            -71.53013,-16.40658,0
+            -71.5306,-16.40697,0
+            -71.53064,-16.407,0
+            -71.53109,-16.40737,0
+            -71.53163,-16.40778,0
+            -71.53199,-16.4081,0
+            -71.53248,-16.40848,0
+            -71.53252,-16.40851,0
+            -71.53291,-16.40881,0
+            -71.53338,-16.4083,0
+            -71.53385,-16.4078,0
+            -71.53395,-16.4077,0
+            -71.53397,-16.40768,0
+            -71.53355,-16.40731,0
+            -71.53301,-16.40692,0
+            -71.53262,-16.40662,0
+            -71.53219,-16.40628,0
+            -71.53167,-16.40588,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Los Alpes</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.494285,-16.4152114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jorge Chavez</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.4959547,-16.4167445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av Argentina</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5026778,-16.4118737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Capilla Santa Rosa</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5089313,-16.4076695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plazuela Cesar Vallejo</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5125181,-16.4053418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Teniente Palacios</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5181165,-16.4017067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Salle</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5244339,-16.4019059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Victor Lira</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5306012,-16.4069707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mayta Capac</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5339474,-16.407702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Victor Lira</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5316716,-16.4058816,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

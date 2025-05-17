@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "ESPIRITU SANTO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50196, -16.36573]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Circunvalación"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50001, -16.36686]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Juan Velazco Alvarado"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50368, -16.36822]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Flores"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5094, -16.36873]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Lima"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51289, -16.37176]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cuba"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5144, -16.37537]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. México"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51719, -16.37736]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Brasil"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51842, -16.38009]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51698, -16.38234]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Pacifico"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51932, -16.38407]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Dalias"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52448, -16.38783]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Progreso"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52681, -16.38956]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Juan de la Torre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53238, -16.39181]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. La Marina"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53705, -16.39251]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "C. Puente Grau"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53737, -16.39331]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "C. Moral"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53849, -16.39646]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Tristán"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53991, -16.40203]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "28 de Julio"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53963, -16.40369]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Salaverry"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54011, -16.40565]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UTP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54221, -16.40843]
+        }
+      }
+    ]
+  }
+  

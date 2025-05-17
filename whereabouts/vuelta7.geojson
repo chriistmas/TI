@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cementerio General La Pacheta"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5344, -16.43016]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque 7 de agosto"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51572, -16.42612]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mall aventura plaza"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51581, -16.41787]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cruce av jesus con john F kennedy"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51268, -16.41183]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "EL tablon"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52167, -16.39949]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La paz"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52671, -16.39818]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ploiclinico metropolitano essalud"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53083, -16.39546]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente grau"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53739, -16.39329]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Clinica arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54012, -16.39225]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Real Plaza"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54893, -16.38928]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Inovamora inmobiliaria"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55276, -16.39088]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Promart"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55606, -16.39256]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La caleta del yuyo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56581, -16.39258]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Confraternidad con Prol Progreso"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56928, -16.39498]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Logisticar arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56913, -16.40068]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Transporte iberoamericano"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56834, -16.40322]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Variante de uchumayo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57323, -16.40437]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ladrillos el diamante"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.573, -16.40322]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Estadio semirural pachacutec"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57461, -16.39264]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Peru"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57501, -16.38705]
+        }
+      }
+    ]
+  }
+  

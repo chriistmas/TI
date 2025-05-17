@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque Melgar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54208, -16.40851]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Bonifaz"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53955, -16.40863]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "28 de Julio"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53759, -16.40496]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "San Camilo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53636, -16.40195]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Melgar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53388, -16.39575]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Juan De La Torre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53238, -16.39186]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Progreso"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52682, -16.38958]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52609, -16.38899]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente de la Amistad"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52064, -16.38502]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "America"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51697, -16.38235]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. España"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51802, -16.38068]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. 12 de Octubre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51787, -16.37903]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Huascar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51556, -16.37762]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Leticia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51312, -16.37611]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Lima"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51171, -16.37338]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Los Claveles"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5129, -16.37176]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Flores"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50925, -16.36893]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Juan Velazco Alvarado"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50724, -16.36838]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Circunvalación"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50381, -16.36968]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "ESPIRITU SANTO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50214, -16.36569]
+        }
+      }
+    ]
+  }
+  

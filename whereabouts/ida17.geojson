@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza Uchumayo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.6726, -16.42481]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Lateral 7"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.66093, -16.42501]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Lateral 3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.60842, -16.40782]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Lateral 2"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.59995, -16.40677]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ovalo Volvo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.58791, -16.40593]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Diamante"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.58504, -16.40558]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Romancero"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57353, -16.4047]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Atahualpa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56829, -16.40444]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ovalo Camarones"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56368, -16.40643]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Alprosa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56048, -16.40811]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Laive"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54935, -16.41793]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parra"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54994, -16.41783]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente Fierro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5451, -16.41223]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UTP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54192, -16.40825]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Salaverry"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54012, -16.40598]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Iglesa Pilar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53715, -16.40884]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Coliseo Melgar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53578, -16.40776]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Victor Lira"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5323, -16.40496]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paucarpata"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52944, -16.40262]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La Salle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52627, -16.40011]
+        }
+      }
+    ]
+  }
+  

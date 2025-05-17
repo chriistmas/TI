@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Paradero inicial AV. PERU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.57022, -16.38479]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cruce de calle mariano melgar con Av Lima"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.56891, -16.38057]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Estadio arturo dias huertas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.56797, -16.37523]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Colegio miguel angel cornejo rosado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.56681, -16.37503]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Sunafil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.56148, -16.37434]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Juzgados penales cerro colorado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.55918, -16.37916]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Hospital geriatrico municipal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.55676, -16.38102]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Embotelladora socosani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.55593, -16.38413]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Real Plaza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.54893, -16.38928]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Señor de la caña"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.54879, -16.39194]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Av Jose abelardo quiñonez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.54594, -16.3979]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque ricardo palma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.54766, -16.4035]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Ovalo Vallecito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.54287, -16.40472]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Ministerio de la mujer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.537, -16.40866]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Galerias VIRGEN DE GUADALUPE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.5295, -16.40264]
+      }
+    },
+    {
+      "type": "Feature",
+        "properties": {
+        "nombre": "EL tablon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.52167, -16.39949]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Ovalo Mariscal Castilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.51654, -16.40297]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Ovalo de la colonial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.5028, -16.42783]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Grifo Chachas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51545, -16.36458]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Elias Aguirre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51652, -16.36532]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "I,E 40657"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51894, -16.36858]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "P.S. San Juan Bautista"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5193, -16.36888]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parroquia Cristo Rey"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52265,-16.37462]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Caja Arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52533,-16.37621]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Las Torres"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52792,-16.37823]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Iglesia Guadalupe"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52642,-16.37995]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque Javier Heraud"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52405,-16.3783]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mercado Villa Hermosa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52033,-16.3789]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av Brasil"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51931,-16.38064]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av.Roosevelt"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52227,-16.38276]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ovalo del Rocoto"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52526,-16.38334]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Roosevelt 227, Arequipa 04001, Perú"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52723,-16.38573]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Arequipa 211, Alto Selva Alegre 04001, Perú"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52677,-16.38954]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza Mayta Capac"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52264,-16.39335]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Grifo Autrisa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51569,-16.39954]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "BCP Venezuela"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5184,-16.40335]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Hospital Honorio Delgado"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53382,-16.41595]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Pje. Quiroz 101, José Luis Bustamante y Rivero 04002, Perú"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53329,-16.42509]
+        }
+      }
+    ]
+  }
+  

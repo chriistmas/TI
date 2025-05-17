@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Pasaje Santa Rosa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5289, -16.39982]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Goyeneche"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52756, -16.40099]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La Salle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52625, -16.39994]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Manuel Muñoz Najar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52392, -16.39807]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "C. Puno"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52217, -16.39666]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Union"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52098, -16.39569]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Calle Jorge Chávez"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51986, -16.39469]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Pro Hogar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52094, -16.39375]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Miguel Grau"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51966, -16.39221]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Independencia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51438, -16.38593]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Julio Cesar Tello"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51221, -16.38339]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "M. Paricahua"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51042, -16.38127]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Tacna Y Arica"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50949, -16.38024]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "San Martín"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51054, -16.37937]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Tumbes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50867, -16.37745]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Junin"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50437, -16.37422]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ica"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50175, -16.37427]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Caraveli"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50175, -16.37427]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Zevallos"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49978, -16.37549]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mariategui"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49898, -16.37688]
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Losa Dep. Alto Cenepa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5029659	,-16.3941287]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La Alameda"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5110544	,-16.3936618]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Pro Hogar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5183645	,-16.3905215]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza Mayta Cápac"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5226706	,-16.3935823]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Manuel Muñoz Najar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5251158	,-16.3972153]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Siglo XX - Av. Goyeneche"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.527633	,-16.4009571]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Independencia - Paucarpata"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5274202	,-16.4042691]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Colegio Independencia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5322695	,-16.4083091]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA Biomédicas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5352128	,-16.411982]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Alcides Carrión"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5341902	,-16.4152886]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parroquia Santo Toribio"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5313563	,-16.4214061]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Óvalo Avelino"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5334282	,-16.4253359]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Vidaurrazaga"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5344494	,-16.4300896]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Las Malvinas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5315419	,-16.4346001]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Oroya"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5287993	,-16.4419656]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Colegio Bélgica"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5213523	,-16.4433195]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Capilla Breña"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5162459	,-16.4472083]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puesto de Salud La Esmeralda"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5124355	,-16.4499072]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "I.E. La Campiña"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5174894	,-16.4564538]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Emp. 3 de Octubre -Terminal"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5242697	,-16.4616276]
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "MiBarrunto"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.551968, -16.454059]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "EstadioJuanVelasco"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.554851, -16.451607]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La25"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.552765, -16.449373]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Linea3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.551574, -16.447824]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "FrentePosta"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.553789, -16.445044]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "FrenteMunicipioHunter"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.558928, -16.440109]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "BancoBBVA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.561609, -16.437178]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "AgenteBancioNacion"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.562146, -16.435799]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "JardinSantaPaula"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.561266, -16.433926]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "AvAmericasOvalo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.559968, -16.432270]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "FrenteParroquiaTrinidad"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.561459, -16.431590]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "FrenteUniversidadLaSalle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.556556, -16.425467]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "ParqueAlfonsoUgarte"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.549722, -16.417561]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "IncaMotors"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.541803, -16.408094]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "AvOrmeño"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.538789, -16.407579]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "FrenteHotelM&M"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.537813, -16.408788]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "AvJorgeChavez"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.535737, -16.407687]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "SanCamilo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.532234, -16.404857]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "AvGoyeneche"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.529376, -16.402557]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "AvIndependencia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.527522, -16.404315]
+        }
+      }
+    ]
+  }
+  

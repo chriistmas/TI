@@ -1,0 +1,205 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Pueente grau"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53837, -16.39295]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UCSP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53637, -16.39312]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Seguro Social"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53055, -16.39349]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Municipalidad de Arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52899, -16.3934]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av.Progreso"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52442,-16.39194]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque Chapi Chico"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51788,-16.38717]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Tarapaca"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51226,-16.38337]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente Arnao"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51556,-16.39103]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Sepulveda"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51975,-16.39904]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mariscal Castilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52143,-16.39952]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA Ingenierias"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52518,-16.40237]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Daniel Alcides Carrión 502, Arequipa 04002, Perú"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53484,-16.41381]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA Biomedicas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53451,-16.41354]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Avelino"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53304,-16.42534]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Apacheta"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53272,-16.43049]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Óvalo Cementerio 84, Arequipa 04009, Perú"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53287,-16.43087]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Grifo San Fernando"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52879,-16.44193]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mercado 3 De octubre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51832,-16.44343]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Capilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52154,-16.4605]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cenepa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5243,-16.46171]
+        }
+      }
+    ]
+  }

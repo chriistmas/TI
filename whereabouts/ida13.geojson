@@ -1,0 +1,205 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cenepa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52434, -16.46168]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Capilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52153, -16.4605]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La campiña"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51885, -16.45784]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mercado 3 De octubre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51839, -16.44351]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av.Unión"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52345,-16.4431]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Grifo San Fernando"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52876,-16.44199]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Apacheta"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53272,-16.4305]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Avelino"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53304,-16.42534]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av.Los incas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53287,-16.41691]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA Biomedicas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53476,-16.41365]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. La Marina"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54354,-16.40411]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero Catolica"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54625,-16.40425]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Estadio Umacollo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54615,-16.39906]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cruce Trinidad Moran"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54867,-16.39209]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Makro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55522,-16.39366]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Real Plaza"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54947,-16.38902]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av.Ejercito"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54765,-16.38971]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mall plaza"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54639,-16.39016]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Comisaria Yanahuara"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54336,-16.39127]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente grau"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53837,-16.39295]
+        }
+      }
+    ]
+  }

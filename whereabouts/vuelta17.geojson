@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La Salle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52627, -16.40011]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5246, -16.40192]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Heroes Anonimos"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52715, -16.40397]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Coliseo Arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52892, -16.40548]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Victor Lira"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53051, -16.40683]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Colegio Independencia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53289, -16.40872]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Estadio Melgar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53435, -16.40991]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Grifo Pilar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53641, -16.40941]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Salaverry"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5401, -16.40571]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UTP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54213, -16.40819]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente Fierro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54515, -16.41196]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Pasaje Martinetti"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54552, -16.41277]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Vidaurrazaga"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5455, -16.41281]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Jacinto Ibañez"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54241, -16.4153]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Michell"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5429, -16.41834]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Juan Barcleay"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54372, -16.41921]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Alicorp"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54632, -16.41787]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Miguel Forga"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54754, -16.419]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Seal"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54829, -16.41834]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Variante Uchumayo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54885, -16.41807]
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Emp. 3 de Octubre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5243259, -16.4616731]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque La Campiña"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5211525, -16.4601576]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque Urb Las Esmeraldas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.512411, -16.4499182]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Capilla Breña"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.516154, -16.4470445]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mercado 3 de Octubre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5184081	,-16.443472]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Grifo San Fernando"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5287885	,-16.441926]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza de Poesia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5305848	,-16.4369277]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Óvalo Apacheta"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5327341	,-16.4308169]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Óvalo Avelino"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5330177	,-16.4257613]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Hospital General"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5340767	,-16.4151198]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA Biomédicas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5347602	,-16.4120979]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Colegio Independecia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5322992	,-16.4083555]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paucarpata -  UNSA Ing."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5274896	,-16.4044344]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mariscal Castilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5203074	,-16.4003746]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Venezuela"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5192554	,-16.404191]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Sepúlveda"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5152898	,-16.3996663]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza de Infantería"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5164238	,-16.3980074]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cuartel Salaverry"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5163227	,-16.3954836]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La Alameda"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5110298	,-16.3936736]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Losa Dep. Alto Cenepa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5029367	,-16.3940084]
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,196 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ovalo Apacheta"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53269, -16.4305]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Dolores"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52366, -16.42923]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Reservorio"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51495, -16.42565]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ugarte"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51662, -16.42033]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mall Porongoche"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51544, -16.41623]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Los Incas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51502, -16.4106]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Pje. Huanuco"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51581, -16.40448]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ovalo Mariscal Castilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51647, -16.40282]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente Arnao"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5216, -16.39941]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. La Paz"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5268, -16.39829]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Manuel Muñoz Najar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52734, -16.39548]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Peral"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53128, -16.39542]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Quesada"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54232, -16.39144]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Ejército"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54767, -16.38954]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Calle Challapampa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55448, -16.39205]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Metropolitana"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55569, -16.39243]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Gonzales Prada"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56735, -16.39084]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Variante De Uchumayo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57315, -16.40476]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Peru"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57505, -16.38697]
+        }
+      }
+    ]
+  }
+  

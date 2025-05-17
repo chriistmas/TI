@@ -1,0 +1,205 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av Andres Avelino Caceres"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53341, -16.42533]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Hospital Honorio Delgado"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53346, -16.41619]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Medicina Unsa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5351, -16.41263]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Coliseo Arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52921, -16.40581]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA Ingenierias"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52669,-16.40497]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Unsa Sociales"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52114,-16.40525]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza Mayta Capac"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.522,-16.39386]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Arequipa 232, Alto Selva Alegre 04001, Perú"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52673,-16.38968]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "7 de Mayo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52697,-16.38657]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "C. Jacinto Liendo 400, Alto Selva Alegre 04001, Perú"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52366,-16.38368]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque Javier Heraud"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52477,-16.37874]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Caja Arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52534,-16.37619]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parroquia Cristo Rey"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52265,-16.37462]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av.Las Torres"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51996,-16.37333]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "P.S. San Juan Bautista"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51934,-16.36882]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "I,E 40657"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51894,-16.36858]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Grifo Chachas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51488,-16.36444]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "JFQQ+M52, Miguel Grau, Alto Selva Alegre 04003, Perú"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51213,-16.36084]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cancha El Mirador AQP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5091,-16.35946]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "JFRR+35P, Arequipa 04003, Perú"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50958,-16.36046]
+        }
+      }
+    ]
+  }

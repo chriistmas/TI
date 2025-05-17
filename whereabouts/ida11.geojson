@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av.Estados Unidos"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49061, -16.40316]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero Av.EEU"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49333, -16.40336]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero colegio Pio-XII"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49475, -16.40435]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero Av.Perú"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49863, -16.40478]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "P Ulrich Neisser"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5008	,-16.40493]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero Av.Argentina y Rosaspata"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50186	,-16.40512]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Feria Umachiri"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50479	,-16.40044]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "C Chancay"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50794	,-16.40236]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero Municipalidad M.Melgar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50981	,-16.40205]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Centro de Salud M.Melgar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5118	,-16.40314]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Feria el Altiplano"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51496	,-16.40253]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero M.Castilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.516	,-16.40305]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ex-Grifo-Biberon"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5182	,-16.40163]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero T.Palacios"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51754	,-16.40064]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "BCP Venezuela"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51815	,-16.40284]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52136	,-16.40526]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puerta UNSA Venezuela"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52315	,-16.40629]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Calle Ventura Monjarras"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52676	,-16.40809]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero Sedapar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53148	,-16.40953]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Colegio Independencia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.532	,-16.40973]
+        }
+      }
+    ]
+  }
+  

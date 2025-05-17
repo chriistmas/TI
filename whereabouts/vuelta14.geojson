@@ -1,0 +1,205 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52314, -16.40632]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La Salle-Don Bosco"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52465, -16.40171]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. goyeneche"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52572, -16.39952]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Don Bosco"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52819, -16.39656]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Seguro Social"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53116,-16.39538]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Bolivar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53673,-16.39355]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente Grau"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53742,-16.39332]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av ejercito"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54549,-16.39035]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero SAGA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54627,-16.39007]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av.Cayma"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54747,-16.38923]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza Cayma"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54584,-16.38146]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av.Bolognesi"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54525,-16.38124]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Hospital Cívico"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5447,-16.37601]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Tomilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54482,-16.36807]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza la Tomilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54369,-16.35762]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero Ramon Castilla-Gallegos"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54357,-16.35569]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Estadio Bolognesi"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5423,-16.34571]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero Cementerio F.B"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54203,-16.33841]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero Av.Rafael Belaunde"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54102,-16.33364]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av 28 de julio"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55215,-16.33775]
+        }
+      }
+    ]
+  }

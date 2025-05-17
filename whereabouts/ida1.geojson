@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av.Perú"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.575, -16.3869]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Republica del Peru"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57562, -16.39409]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57495, -16.39846]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57353, -16.40207]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Variante de Uchumayo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57316, -16.40476]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Prol. Progreso"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56917, -16.40063]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Nicolas De Pierola"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56273, -16.39297]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Metropolitana"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55568, -16.39243]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Chachani"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55465, -16.38719]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Ejército"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55384, -16.38654]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "C. Zamácola"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54665, -16.39512]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Emmel"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54567, -16.39781]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. La Marina"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54211, -16.39998]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. La Marina"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54356, -16.40409]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "C. Álvarez Thomas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53945, -16.40671]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Independencia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5357, -16.4111]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Los Incas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53292, -16.41701]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "C. Los Pinos"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53131, -16.42175]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Avelino"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53339, -16.42524]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ovalo Apacheta"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53271, -16.43049]
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque Libertad de Expresión"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5477591	,-16.403736]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Vallecito"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5430422	,-16.4043735]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Luna Pizarro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5422833	,-16.4056602]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UTP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5411016	,-16.408707]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Salaverry"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5391921	,-16.4071246]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Mariscal Caceres"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5381959	,-16.4082987]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Estadio Melgar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5361857	,-16.4101929]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Alcides Carrión"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5350677	,-16.4133407]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Hospital Regional"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5340685	,-16.4155815]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parroquia Santo Toribio"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5313404	,-16.4213102]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Óvalo Avelino"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5333358	,-16.4250937]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La Apacheta"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5344015	,-16.4303587]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Presto"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5266943	,-16.429743]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paseo la Cultura"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.518592	,-16.4272956]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque Santa Rosa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5134702	,-16.4250818]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "MTC"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5097532	,-16.4232925]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Guardia Civil"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5076364	,-16.4223056]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. John F. Kenedy"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5058817	,-16.4247463]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cancha Deportiva Cristo Rey"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.4963056	,-16.429367]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Santo Domingo Terminal"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.4911649	,-16.42931]
+        }
+      }
+    ]
+  }
+  

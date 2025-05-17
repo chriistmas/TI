@@ -1,0 +1,176 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ovalo de la colonial"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5028, -16.42783]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ovalo Mariscal Castilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51654, -16.40297]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "El tablon"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52167, -16.39949]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La paz"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52671, -16.39818]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Policlinico metropolitano essalud"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53083, -16.39546]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente grau"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53739, -16.39329]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Clinica arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54012, -16.39225]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mall plaza"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54652, -16.39012]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Real Plaza"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54893, -16.38928]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Embotelladora socosani"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55593, -16.38413]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Hospital geriatrico municipal"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55676, -16.38102]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Juzgados penales cerro colorado"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55918, -16.37916]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Sunafil"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56148, -16.37434]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Colegio miguel angel cornejo rosado"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56681, -16.37503]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Estadio arturo dias huertas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.56797, -16.37523]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Pronei Esperanza Infantil"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57549, -16.38288]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Peru"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57028, -16.38481]
+        }
+      }
+    ]
+  }
+  

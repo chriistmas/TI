@@ -1,0 +1,205 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mariategui"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49898, -16.37687]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Olaya"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49936, -16.37622]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Melgar Zevallos"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49978, -16.37549]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Zevallos"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50013, -16.3741]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Caraveli-Ica"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50174, -16.37428]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "San Martin"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50277, -16.37304]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Callao"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50334, -16.37338]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Pasco"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50496, -16.3746]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Piura"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50825, -16.37693]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Tacna Y Arica"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51055, -16.37936]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Tarapacá"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50955, -16.38021]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Jose Olaya"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5113, -16.38227]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Daniel Alcides Carrión"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51361, -16.38491]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Gonzales Prada"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5157, -16.3874]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ramon Castilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5183, -16.39048]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paz Soldán"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52015, -16.39268]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Jorge Chávez"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52105, -16.39369]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "San Martín"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52211, -16.39285]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Manuel Muñoz Najar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52516, -16.39722]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. La Paz"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5289, -16.39977]
+        }
+      }
+    ]
+  }

@@ -1,0 +1,205 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av 28 de julio"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55215, -16.33775]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Estadio Bolognesi"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5423, -16.34571]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Estadio Cayma"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54327, -16.36061]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paradero Av.Ramon Castilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54418, -16.36606]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Tomilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54482,-16.36807]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Hospital Cívico"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54471,-16.37656]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza Cayma"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54584,-16.38146]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av.Cayma"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54745,-16.38917]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mall Plaza"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54629,-16.38917]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av ejercito"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54555,-16.39038]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Bolivar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53646,-16.39307]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "San Lazaro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53415,-16.39216]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Seguro Social"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53049,-16.39348]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Municipalidad de Arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52904,-16.3934]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Don Bosco"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52822,-16.39659]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza San Antonio"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52598,-16.39464]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "C.Puno"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52064,-16.39762]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Grifo Autrisa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51572,-16.39954]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "BCP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51802,-16.40287]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5231,-16.40637]
+        }
+      }
+    ]
+  }

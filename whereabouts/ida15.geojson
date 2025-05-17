@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La Perla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.481059,	-16.415687]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La cultura"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.482207,	-16.414957]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Arguedas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.485893,	-16.414822]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Tupac Amaru"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.491533,	-16.416374]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Revolucion"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.490997,	-16.417192]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Jesus"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.498269,	-16.421863]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Baden"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.499081,	-16.421304]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Porongoche"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.501462,	-16.419698]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Javier luna Pizarro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.502238,	-16.419196]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Amauta"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.505599,	-16.416961]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Industrial"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.510035,	-16.413997]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Kennedy"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.512615,	-16.411856]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Comandante canga"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.514463,	-16.407584]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mariscal Castilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.517658,	-16.401931]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Lasallle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.524443,	-16.401852]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paucarpata"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.527423,	-16.404277]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Hospital"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.533493,	-16.416436]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Avelino"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.533381,	-16.425214]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Vidaurrazaga"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.537356,	-16.424623]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Terminal"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.543998,	-16.422482]
+        }
+      }
+    ]
+  }
+  

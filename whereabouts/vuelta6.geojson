@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Centro Comercial La Isla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53389, -16.42673]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Óvalo del Avelino"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53304, -16.42573]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La Pampilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53292, -16.41675]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Hospital General"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53355, -16.41603]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA Biomédicas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53475, -16.41366]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Sedapar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53266, -16.41049]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Colegio de Contadores Públicos"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52663, -16.40822]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA Ingenierías"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52281, -16.40628]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA Sociales"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52128, -16.40534]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Bancos - Banco BCP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51794, -16.40293]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Feria El Altiplano"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5166, -16.40124]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cuartel Salaverry"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51593, -16.39838]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza Mayta Cápac"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52133, -16.39431]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Iglesia Chapi Chico"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51828, -16.39058]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Posta de Alto Misti Miraflores"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51177, -16.38286]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Piscina de la Familia Miraflorina"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50884, -16.38069]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Complejo Deportivo Munakuyky"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50217, -16.38141]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Salón de usos múltiples Juan XXIII"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49863, -16.37933]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Complejo Deportivo La Galaxia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49356, -16.37856]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Juan XXIII"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49176, -16.3798]
+        }
+      }
+    ]
+  }
+  

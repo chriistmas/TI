@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Los Alpes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.494280,	-16.415224]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Roma"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.494157,	-16.416506]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Jorge Chavez"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.495928,	-16.416740]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mariascal Castilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.496591,	-16.416825]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Posta de Salud"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.500701,	-16.413102]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av Argentina"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.502650,	-16.411832]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente Santa Rosa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.505018,	-16.410201]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Capilla Santa Rosa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.508908,	-16.407636]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Comandante Canga"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.510465,	-16.406645]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plazuela Cesar Vallejo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.512523,	-16.405289]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Lima"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.513852,	-16.404452]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Feria Altiplano"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.516451,	-16.402827]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Teniente Palacios"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.518102,	-16.401688]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Independencia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.521521,	-16.399431]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Lasalle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.524453,	-16.401884]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paucarpata"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.527420,	-16.404287]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Victor Lira"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.530622,	-16.406948]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Garci de Carbajal"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.532894,	-16.408763]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mayta Capac"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.533936,	-16.407692]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Victor Lira"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.531662,	-16.405893]
+        }
+      }
+    ]
+  }
+  

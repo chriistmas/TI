@@ -1,0 +1,196 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Juan XXIII"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49176, -16.3798]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Complejo Deportivo La Galaxia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49356, -16.37856]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Salón de usos múltiples Juan XXIII"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.49863, -16.37933]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Complejo deportivo Munakuyky"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50234, -16.38131]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Piscina de la Familia Miraflorina"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.50884, -16.38069]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Posta de Alto Misti Miraflores"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51182, -16.38281]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Iglesia Chapi Chico"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51879, -16.39105]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza Mayta Cápac"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52146, -16.39418]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cuartel Salaverry"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.51678, -16.39784]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Feria El Altiplano"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.516, -16.40022]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA Sociales"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52153, -16.40533]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UNSA Ingenierías"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52316, -16.40642]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Colegio de Contadores Públicos"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.52674, -16.40812]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "El Palomar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5369, -16.41275]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Manzanitos"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53896, -16.41343]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque de la Madre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54284, -16.41409]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Feria Los Incas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53899, -16.42054]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Terminal Las Flores"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54407, -16.4222]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Terminal Terrestre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54423, -16.42247]
+        }
+      }
+    ]
+  }
+  

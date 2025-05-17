@@ -1,0 +1,195 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Andres Avelino Caceres(Puente)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.53908, -16.42411]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Terminal Terrestre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54677, -16.42025]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "SENATI"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54677, -16.42025]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cayetano Arenas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.54791, -16.41921]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente San Isidro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.55134, -16.4159]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Intercambio Via Evitamiento y Variante de Uchumayo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.58471, -16.40431]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Platisur"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.58362, -16.39541]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Perú"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.58293, -16.39]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Camal Frigorifico DON GOYO SAC"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57745, -16.3825]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Grifo Gamarra S.A."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57663, -16.38151]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mercado Mayorista ASOCOMAT II"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57462, -16.37902]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Campo Santo Jardin de Arequipa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.57669, -16.36895]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cruce Via Evitamiento"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.58246, -16.34265]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza Norte"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.58352, -16.34266]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Peruarbo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.58915, -16.33992]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ciudad municipal"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.59497, -16.32693]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque Los Ccoritos2"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.60652, -16.31539]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Colegio Solaris"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.62109, -16.30139]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Km 16"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.62622, -16.29732]
+        }
+      }
+    ]
+}

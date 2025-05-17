@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Santo Domingo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.4911593	,-16.4292874]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cristo Rey"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.499679	,-16.4297469]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Gobierno Regional - Kenedy"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5073628	,-16.4221732]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Hospital Edmundo Escomel"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.510156	,-16.4172563]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mercado Manuel Prado"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5124805	,-16.4121971]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Lima"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5147898	,-16.4050616]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Mariscal Castilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5156536	,-16.4033088]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Progreso"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5166211	,-16.3978424]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Plaza Mayta Capac"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5219133	,-16.3939117]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Municipalidad Provincial de Arequipa - El Filtro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5287812	,-16.3933597]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Seguro Social"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5308742	,-16.3941951]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "C. Ayacucho"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5323062	,-16.395081]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Santa Catalina"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.535667	,-16.3939371]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Calle Bolivar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.536919	,-16.394113]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Centro Cultural UNSA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5379603	,-16.3967614]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Calle Pte. Bolognesi"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5387296	,-16.3986712]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Zamácola"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5436582	,-16.3967748]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av. Emmel-Hospital Yanahura"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5453974	,-16.397163]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Estadio Umacollo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.5463378	,-16.399461]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ricardo Palma"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.547722	,-16.4036151]
+        }
+      }
+    ]
+  }
+  

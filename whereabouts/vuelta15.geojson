@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Terminal"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.543998,	-16.422482]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Los incas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.538283,	-16.420349]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Hospital"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.533253,	-16.416409]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Virgen del Pilar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.532804,	-16.410596]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Trabada"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.533615,	-16.409501]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Victor lira"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.532332,	-16.404901]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paucarpata"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.529401,	-16.402540]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Lasalle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.526315,	-16.400045]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Munñoz Najar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.523925,	-16.398129]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Republica de Chile"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.519330,	-16.401035]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Feria Altiplano"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.516916,	-16.402709]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Kennedy"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.512658,	-16.411832]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Cayro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.505883,	-16.416808]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Javier Luna Pizarro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.502285,	-16.419231]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ricardo Palma"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.499699,	-16.420963]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Baden"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.498756,	-16.421624]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Revolucion"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.498309,	-16.421904]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Martires de chicago"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.490994,	-16.417192]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La Cultura"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.482243,	-16.414970]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La Perla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.481059,	-16.415687]
+        }
+      }
+    ]
+  }
+  

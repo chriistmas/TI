@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "AvIndependencia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.527522, -16.404315]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "EstadioMelgar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.534394, -16.409945]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "GrifoElPilar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.536441, -16.409412]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "ParroquiaNuestraSraPilar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.537289, -16.409031]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "FrenteABobbyTatto"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.538376, -16.407880]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "AvSalaverry"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.540001, -16.405765]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "UTP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.541922, -16.408011]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "EcogasAutomotriz"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.549205, -16.416775]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ferreyros"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.553746, -16.421719]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "FrentePlazaGilardi"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.561545, -16.431313]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "ParroquiaNuestraSraPilar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.561626, -16.431679]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "AvAmericasOvalo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.560086, -16.432389]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "FrenteGrifoPrimax"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.562212, -16.435113]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "LubricentroShell"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.562189, -16.436321]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "OvaloHunter"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.559143, -16.440143]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "AvBrasilia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.555940, -16.443101]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "ComplejoMilagros"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.551620, -16.447744]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "AvBataneros"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.552552, -16.448796]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "AvMariscalUreta"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.553416, -16.450012]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "IglesiaBautista"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.552040, -16.453984]
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Victor lira"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.531609,	-16.405880]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Independencia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.530688,	-16.406972]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Paucarpata"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.527465,	-16.404405]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ventura Mojarra"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.526767,	-16.408085]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Virgen del Pilar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.519511,	-16.404361]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av Jesus"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.516498,	-16.403163]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Lima"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.515520,	-16.405498]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mariscal Castilla"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.513906,	-16.404548]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Av Simon Bolivar"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.512758,	-16.405309]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Comandante Canga"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.510884,	-16.406530]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Capilla Santa Rosa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.509244,	-16.407595]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Londres"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.506484,	-16.409440]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Puente Santa Rosa"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.505253,	-16.410225]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Tacna"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.504035,	-16.410972]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque 15 de Agosto"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.502399,	-16.412086]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Posta 15 de agosto"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.500945,	-16.413010]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Tupac Amaru"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.499164,	-16.414211]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Roma"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.496647,	-16.416856]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Los Alpes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.494262,	-16.415251]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Santa Clara"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.492587,	-16.414354]
+        }
+      }
+    ]
+  }
+  

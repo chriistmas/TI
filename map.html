@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUTA</title>
+    <link rel="stylesheet" href="map.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js"></script>
+    <script src="https://unpkg.com/leaflet-geometryutil@0.10.3/dist/leaflet.geometryutil.js"></script>
+</head>
+<body>
+    <div id="controls">
+        <div id="search">
+            <input list="resultsList" id="searchInput" placeholder="Introduce una ubicación">
+            <datalist id="resultsList"></datalist>
+            <button onclick="buscarUbicacion()" id="searchButton">Buscar</button>
+        </div>
+        <div id="routesMenu">
+            <button onclick="alternarListaRutas()">Rutas</button>
+            <div id="routesList" class="hidden">
+                <h3>Selecciona la ruta:</h3>
+                <ul>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta1')">COTUM A</label>
+                        <ul id="ruta1" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta1Checkbox1" onclick="alternarRuta(1, 1)">
+                                <label for="ruta1Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta1Checkbox2" onclick="alternarRuta(1, 2)">
+                                <label for="ruta1Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta2')">CORRECAMINOS DOLORES</label>
+                        <ul id="ruta2" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta2Checkbox1" onclick="alternarRuta(2, 1)">
+                                <label for="ruta2Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta2Checkbox2" onclick="alternarRuta(2, 2)">
+                                <label for="ruta2Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta3')">A15 MIRAFLORES</label>
+                        <ul id="ruta3" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta3Checkbox1" onclick="alternarRuta(3, 1)">
+                                <label for="ruta3Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta3Checkbox2" onclick="alternarRuta(3, 2)">
+                                <label for="ruta3Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta4')">ALTO SELVA ALEGRE</label>
+                        <ul id="ruta4" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta4Checkbox1" onclick="alternarRuta(4, 1)">
+                                <label for="ruta4Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta4Checkbox2" onclick="alternarRuta(4, 2)">
+                                <label for="ruta4Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta5')">C2-4D CONO NORTE</label>
+                        <ul id="ruta5" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta5Checkbox1" onclick="alternarRuta(5, 1)">
+                                <label for="ruta5Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta5Checkbox2" onclick="alternarRuta(5, 2)">
+                                <label for="ruta5Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta6')">BJUANXXIII</label>
+                        <ul id="ruta6" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta6Checkbox1" onclick="alternarRuta(6, 1)">
+                                <label for="ruta6Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta6Checkbox2" onclick="alternarRuta(6, 2)">
+                                <label for="ruta6Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta7')">C7-5 AQP Masivo</label>
+                        <ul id="ruta7" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta7Checkbox1" onclick="alternarRuta(7, 1)">
+                                <label for="ruta7Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta7Checkbox2" onclick="alternarRuta(7, 2)">
+                                <label for="ruta7Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta8')">COTUM B</label>
+                        <ul id="ruta8" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta8Checkbox1" onclick="alternarRuta(8, 1)">
+                                <label for="ruta8Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta8Checkbox2" onclick="alternarRuta(8, 2)">
+                                <label for="ruta8Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta9')">C 3 DE OCTUBRE</label>
+                        <ul id="ruta9" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta9Checkbox1" onclick="alternarRuta(9, 1)">
+                                <label for="ruta9Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta9Checkbox2" onclick="alternarRuta(9, 2)">
+                                <label for="ruta9Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta10')">C7-9 AQP Masivo</label>
+                        <ul id="ruta10" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta10Checkbox1" onclick="alternarRuta(10, 1)">
+                                <label for="ruta10Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta10Checkbox2" onclick="alternarRuta(10, 2)">
+                                <label for="ruta10Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta11')">A MARIANO MELGAR</label>
+                        <ul id="ruta11" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta11Checkbox1" onclick="alternarRuta(11, 1)">
+                                <label for="ruta11Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta11Checkbox2" onclick="alternarRuta(11, 2)">
+                                <label for="ruta11Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta12')">B POLANCO</label>
+                        <ul id="ruta12" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta12Checkbox1" onclick="alternarRuta(12, 1)">
+                                <label for="ruta12Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta12Checkbox2" onclick="alternarRuta(12, 2)">
+                                <label for="ruta12Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta13')">B 3 DE OCTUBRE</label>
+                        <ul id="ruta13" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta13Checkbox1" onclick="alternarRuta(13, 1)">
+                                <label for="ruta13Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta13Checkbox2" onclick="alternarRuta(13, 2)">
+                                <label for="ruta13Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta14')">CAYMA ENACE</label>
+                        <ul id="ruta14" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta14Checkbox1" onclick="alternarRuta(14, 1)">
+                                <label for="ruta14Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta14Checkbox2" onclick="alternarRuta(14, 2)">
+                                <label for="ruta14Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta15')">LA PERLA SRLTDA</label>
+                        <ul id="ruta15" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta15Checkbox1" onclick="alternarRuta(15, 1)">
+                                <label for="ruta15Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta15Checkbox2" onclick="alternarRuta(15, 2)">
+                                <label for="ruta15Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta16')">15 DE AGOSTO</label>
+                        <ul id="ruta16" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta16Checkbox1" onclick="alternarRuta(16, 1)">
+                                <label for="ruta16Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta16Checkbox2" onclick="alternarRuta(16, 2)">
+                                <label for="ruta16Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta17')">UCHUMAYO</label>
+                        <ul id="ruta17" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta17Checkbox1" onclick="alternarRuta(17, 1)">
+                                <label for="ruta17Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta17Checkbox2" onclick="alternarRuta(17, 2)">
+                                <label for="ruta17Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label onclick="toggleSubmenu('ruta18')">ORIOL A</label>
+                        <ul id="ruta18" style="display: none;">
+                            <li>
+                                <input type="checkbox" id="ruta18Checkbox1" onclick="alternarRuta(18, 1)">
+                                <label for="ruta18Checkbox1">IDA</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ruta18Checkbox2" onclick="alternarRuta(18, 2)">
+                                <label for="ruta18Checkbox2">VUELTA</label>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="controls">
+            <button onclick="obtenerUbicacionUsuario()">Obtener Ubicación</button>
+            <button id="encontrarRutaBtn">Encontrar Ruta</button>
+            <button id="limpiarRutaBtn">Limpiar Ruta</button>
+        </div>
+        <div id="mensajeRuta"></div>
+
+        <div>
+            <label>
+                <input type="radio" id="toggle1Ruta" name="rutaToggle" checked> 1 Ruta
+            </label>
+            <label>
+                <input type="radio" id="toggle2Rutas" name="rutaToggle"> 2 Rutas
+            </label>
+        </div>
+        
+                
+    </div>
+    <div id="mapContainer">
+        <div id="map" style="width: 100%; height: calc(100vh - 60px);"></div>
+        <script src="map.js"></script>
+    </div>
+   
+</body>
+</html>

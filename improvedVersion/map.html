@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Rutas de Transporte</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="map.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h1><i class="fas fa-bus"></i> Sistema de Rutas</h1>
+        </div>
+        
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Buscar ubicación..." list="resultsList" autocomplete="off">
+                <datalist id="resultsList"></datalist>
+                <button id="searchButton" aria-label="Buscar"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+
+        <div class="controls-container">
+            <div class="control-group">
+                <button id="getLocationBtn" aria-label="Obtener mi ubicación"><i class="fas fa-location-arrow"></i> Mi Ubicación</button>
+                <button id="findRouteBtn" aria-label="Encontrar ruta"><i class="fas fa-route"></i> Encontrar Ruta</button>
+                <button id="clearRouteBtn" aria-label="Limpiar ruta"><i class="fas fa-trash-alt"></i> Limpiar</button>
+            </div>
+
+            <div class="route-options">
+                <label class="radio-option">
+                    <input type="radio" name="routeOption" value="1" checked>
+                    <span>1 Ruta</span>
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="routeOption" value="2">
+                    <span>2 Rutas</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="routes-container">
+            <div class="routes-header">
+                <h2><i class="fas fa-list"></i> Rutas Disponibles</h2>
+                <button id="toggleRoutesBtn" aria-label="Mostrar/ocultar rutas"><i class="fas fa-chevron-down"></i></button>
+            </div>
+            <div id="routesList" class="routes-list">
+                <!-- Routes will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <div id="routeInfo" class="route-info">
+            <div id="routeMessage" class="route-message">
+                <p>Seleccione origen y destino para calcular la ruta.</p>
+            </div>
+            <div id="routeDetails" class="route-details hidden">
+                <h3>Detalles de la Ruta</h3>
+                <div class="detail-item">
+                    <span class="detail-label">Distancia:</span>
+                    <span id="routeDistance" class="detail-value">-</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Tiempo estimado:</span>
+                    <span id="routeTime" class="detail-value">-</span>
+                </div>
+                <div id="routeSteps" class="route-steps"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <div id="loadingIndicator" class="loading-indicator hidden">
+        <div class="spinner"></div>
+        <p>Calculando ruta...</p>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js"></script>
+    <script src="https://unpkg.com/leaflet-geometryutil@0.10.3/dist/leaflet.geometryutil.js"></script>
+    <script src="map.js" defer></script>
+</body>
+</html>

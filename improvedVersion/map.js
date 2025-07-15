@@ -520,43 +520,42 @@ function findBestSingleRoute(userLatLng, destLatLng) {
         routesMap.get(key).push(stop);
     });
 
-    // Check each route-direction combination
     routesMap.forEach((stops, routeKey) => {
-        // Sort stops by their original order from GeoJSON
+        // Ordenar los stops estrictamente por índice (el orden de GeoJSON)
         stops.sort((a, b) => a.index - b.index);
 
-        // Find nearest stop to origin
+        // Buscar los paraderos más cercanos AL ORIGEN y AL DESTINO
         const nearestToOrigin = findNearestStop(userLatLng, stops);
-        if (!nearestToOrigin || nearestToOrigin.distance > MAX_DISTANCE_TO_PARADERO) return;
-
-        // Find nearest stop to destination
         const nearestToDest = findNearestStop(destLatLng, stops);
+
+        // Validar distancia máxima
+        if (!nearestToOrigin || nearestToOrigin.distance > MAX_DISTANCE_TO_PARADERO) return;
         if (!nearestToDest || nearestToDest.distance > MAX_DISTANCE_TO_DESTINATION) return;
 
-        // Verify directionality using the stop indexes from GeoJSON
-        const originIndex = stops.findIndex(s => s.id === nearestToOrigin.stop.id);
-        const destIndex = stops.findIndex(s => s.id === nearestToDest.stop.id);
-        
-        // For 'ida' direction, origin must come before destination
-        // For 'vuelta' direction, origin must come after destination
-        const isValidDirection = (nearestToOrigin.stop.direction === 'ida') ? 
-            (originIndex < destIndex) : (originIndex > destIndex);
-        
-        if (!isValidDirection) return;
+        // Obtener los índices
+        const originIndex = nearestToOrigin.stop.index;
+        const destIndex = nearestToDest.stop.index;
+        const direction = nearestToOrigin.stop.direction;
 
-        const combinedDistance = nearestToOrigin.distance + nearestToDest.distance;
-        if (combinedDistance < minCombinedDistance) {
-            minCombinedDistance = combinedDistance;
-            bestRoute = {
-                type: 'single',
-                userStop: nearestToOrigin.stop,
-                destStop: nearestToDest.stop,
-                distance: combinedDistance,
-                routeId: nearestToOrigin.stop.routeId,
-                routeName: nearestToOrigin.stop.routeName,
-                direction: nearestToOrigin.stop.direction,
-                transportUnits: getTransportUnitsBetween(stops, originIndex, destIndex)
-            };
+        // Validar sentido del recorrido
+        if (
+            (direction === 'ida' && originIndex < destIndex) ||
+            (direction === 'vuelta' && originIndex > destIndex)
+        ) {
+            const combinedDistance = nearestToOrigin.distance + nearestToDest.distance;
+            if (combinedDistance < minCombinedDistance) {
+                minCombinedDistance = combinedDistance;
+                bestRoute = {
+                    type: 'single',
+                    userStop: nearestToOrigin.stop,
+                    destStop: nearestToDest.stop,
+                    distance: combinedDistance,
+                    routeId: nearestToOrigin.stop.routeId,
+                    routeName: nearestToOrigin.stop.routeName,
+                    direction: direction,
+                    transportUnits: getTransportUnitsBetween(stops, originIndex, destIndex)
+                };
+            }
         }
     });
 
@@ -766,35 +765,65 @@ function clearAddedMarkers() {
 
 // Enhanced route segment drawing that uses KML path but validates with GeoJSON stops
 // Modified drawRouteSegment to hide blue markers and only show stops
+// Helper para encontrar el punto del KML más cercano a un paradero
+function getClosestKmlIndex(kmlCoords, stopCoord) {
+    let minDist = Infinity;
+    let minIdx = -1;
+    kmlCoords.forEach((coord, idx) => {
+        const dist = calculateDistance(coord[1], coord[0], stopCoord[1], stopCoord[0]);
+        if (dist < minDist) {
+            minDist = dist;
+            minIdx = idx;
+        }
+    });
+    return minIdx;
+}
+
+// Nueva función para dibujar el segmento real de la ruta según el KML
 function drawRouteSegment(startStop, endStop, direction) {
     const routeId = startStop.routeId;
     const routeData = state.routeLayers[routeId][direction];
-    
-    // Get the stops in order from GeoJSON
-    const orderedStops = routeData.stops;
-    const startIndex = orderedStops.findIndex(s => s.id === startStop.id);
-    const endIndex = orderedStops.findIndex(s => s.id === endStop.id);
-    
-    if (startIndex === -1 || endIndex === -1) return;
+    const kmlLayer = routeData.layer;
 
-    // Get the segment we want to show
-    const segmentStops = orderedStops.slice(
-        Math.min(startIndex, endIndex),
-        Math.max(startIndex, endIndex) + 1
-    );
+    // Obtener todos los puntos del KML como array de [lng, lat]
+    let kmlCoords = [];
+    kmlLayer.eachLayer(layer => {
+        if (layer instanceof L.Polyline) {
+            kmlCoords = kmlCoords.concat(layer.getLatLngs().map(ll => [ll.lng, ll.lat]));
+        }
+    });
 
-    // Create a polyline through these stops (instead of using KML)
-    const pathCoordinates = segmentStops.map(stop => 
-        [stop.coordinates[1], stop.coordinates[0]]
-    );
-    
-    const routePath = L.polyline(pathCoordinates, {
+    // Buscar el índice del punto KML más cercano a cada paradero
+    const startIdx = getClosestKmlIndex(kmlCoords, startStop.coordinates);
+    const endIdx = getClosestKmlIndex(kmlCoords, endStop.coordinates);
+
+    if (startIdx === -1 || endIdx === -1) return;
+
+    // Extraer el segmento correcto (respetar el orden)
+    const segment = startIdx < endIdx ?
+        kmlCoords.slice(startIdx, endIdx + 1) :
+        kmlCoords.slice(endIdx, startIdx + 1).reverse();
+
+    // Convertir a formato [lat, lng] para Leaflet
+    const segmentLatLngs = segment.map(([lng, lat]) => [lat, lng]);
+
+    // Dibujar la polilínea real
+    const routePath = L.polyline(segmentLatLngs, {
         color: routeColors[routeId % routeColors.length],
         weight: 5,
         smoothFactor: 1
     }).addTo(map);
-    
+
     clearAddedMarkers();
+
+    // Agregar markers de paraderos intermedios como antes
+    const orderedStops = routeData.stops;
+    const startStopIndex = orderedStops.findIndex(s => s.id === startStop.id);
+    const endStopIndex = orderedStops.findIndex(s => s.id === endStop.id);
+    const segmentStops = orderedStops.slice(
+        Math.min(startStopIndex, endStopIndex),
+        Math.max(startStopIndex, endStopIndex) + 1
+    );
 
     segmentStops.forEach(stop => {
         if (stop.id !== startStop.id && stop.id !== endStop.id) {
@@ -806,15 +835,13 @@ function drawRouteSegment(startStop, endStop, direction) {
                 ${stop.routeName}<br>
                 Unidades: ${stop.transportUnits?.join(', ') || 'No disponible'}
             `);
-            
-            // Track the marker
             state.addedMarkers.push(marker);
         }
     });
 
     // Store for cleanup
     state.dashedLines.push(routePath);
-    
+
     // Fit bounds to show the entire segment
     map.fitBounds(routePath.getBounds());
 }

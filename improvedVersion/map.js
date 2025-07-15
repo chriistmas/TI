@@ -721,10 +721,25 @@ function displayRoute(route) {
 }
 
 function displaySingleRoute(route) {
-    // Draw the route segment without blue markers
+    clearCurrentRoute();
+
+    // Dibujar el segmento de bus
     drawRouteSegment(route.userStop, route.destStop, route.direction);
-    
-    // Show route info with transport name and units
+
+    // Línea entrecortada del usuario al paradero de embarque
+    const userCoords = [markers.user.getLatLng().lng, markers.user.getLatLng().lat];
+    const paraderoCoords = route.userStop.coordinates;
+    if (calculateDistance(userCoords[1], userCoords[0], paraderoCoords[1], paraderoCoords[0]) > 0.01) { // >10m por ejemplo
+        drawDashedLine(userCoords, paraderoCoords, "Camina hasta el paradero de embarque");
+    }
+
+    // Línea entrecortada del paradero de desembarque al destino
+    const destCoords = [markers.search.getLatLng().lng, markers.search.getLatLng().lat];
+    const paraderoDestCoords = route.destStop.coordinates;
+    if (calculateDistance(destCoords[1], destCoords[0], paraderoDestCoords[1], paraderoDestCoords[0]) > 0.01) {
+        drawDashedLine(paraderoDestCoords, destCoords, "Camina desde el paradero de bajada hasta tu destino");
+    }
+
     updateRouteInfo({
         ...route,
         transportName: route.routeName,
@@ -732,6 +747,19 @@ function displaySingleRoute(route) {
     });
 }
 
+// Función para dibujar línea entrecortada
+function drawDashedLine(startCoords, endCoords, label) {
+    const line = L.polyline(
+        [
+            [startCoords[1], startCoords[0]],
+            [endCoords[1], endCoords[0]]
+        ],
+        { color: 'red', dashArray: '5, 10', weight: 2 }
+    ).addTo(map);
+
+    line.bindPopup(label);
+    state.dashedLines.push(line);
+}
 
 function displayTwoRouteCombination(route) {
     // Draw first route segment

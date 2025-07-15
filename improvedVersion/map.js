@@ -506,12 +506,20 @@ function findBestRoute(userCoords, destCoords, useTwoRoutes = false) {
     return findBestSingleRoute(userLatLng, destLatLng);
 }
 
-// Enhanced route finding logic that properly matches KML routes with GeoJSON stops
+
+function findNearbyStops(point, stops, maxDistance = 0.3) { // 0.3 km = 300m
+    return stops
+        .map(stop => ({
+            stop,
+            distance: calculateDistance(point[0], point[1], stop.coordinates[1], stop.coordinates[0])
+        }))
+        .filter(item => item.distance <= maxDistance)
+        .sort((a, b) => a.distance - b.distance);
+}
 function findBestSingleRoute(userLatLng, destLatLng) {
     let bestRoute = null;
     let minCombinedDistance = Infinity;
 
-    // Group stops by route and direction
     const routesMap = new Map();
     state.allStops.forEach(stop => {
         const key = `${stop.routeId}-${stop.direction}`;
@@ -522,116 +530,184 @@ function findBestSingleRoute(userLatLng, destLatLng) {
     });
 
     routesMap.forEach((stops, routeKey) => {
-        // Ordenar los stops estrictamente por índice (el orden de GeoJSON)
         stops.sort((a, b) => a.index - b.index);
 
-        // Buscar los paraderos más cercanos AL ORIGEN y AL DESTINO
-        const nearestToOrigin = findNearestStop(userLatLng, stops);
-        const nearestToDest = findNearestStop(destLatLng, stops);
+        // CAMBIO: obtener varios cercanos al usuario y destino
+        const originCandidates = findNearbyStops(userLatLng, stops, MAX_DISTANCE_TO_PARADERO);
+        const destCandidates = findNearbyStops(destLatLng, stops, MAX_DISTANCE_TO_DESTINATION);
 
-        // Validar distancia máxima
-        if (!nearestToOrigin || nearestToOrigin.distance > MAX_DISTANCE_TO_PARADERO) return;
-        if (!nearestToDest || nearestToDest.distance > MAX_DISTANCE_TO_DESTINATION) return;
+        originCandidates.forEach(origin => {
+            destCandidates.forEach(dest => {
+                const originIndex = origin.stop.index;
+                const destIndex = dest.stop.index;
+                const direction = origin.stop.direction;
 
-        // Obtener los índices
-        const originIndex = nearestToOrigin.stop.index;
-        const destIndex = nearestToDest.stop.index;
-        const direction = nearestToOrigin.stop.direction;
-
-        // Validar sentido del recorrido
-        if (
-            (direction === 'ida' && originIndex < destIndex) ||
-            (direction === 'vuelta' && originIndex > destIndex)
-        ) {
-            const combinedDistance = nearestToOrigin.distance + nearestToDest.distance;
-            if (combinedDistance < minCombinedDistance) {
-                minCombinedDistance = combinedDistance;
-                bestRoute = {
-                    type: 'single',
-                    userStop: nearestToOrigin.stop,
-                    destStop: nearestToDest.stop,
-                    distance: combinedDistance,
-                    routeId: nearestToOrigin.stop.routeId,
-                    routeName: nearestToOrigin.stop.routeName,
-                    direction: direction,
-                    transportUnits: getTransportUnitsBetween(stops, originIndex, destIndex)
-                };
-            }
-        }
-    });
-
-    return bestRoute;
-}
-
-// Case 2: Two Routes with Transfer
-function findBestTwoRouteCombination(userLatLng, destLatLng) {
-    let bestCombination = null;
-    let minTotalDistance = Infinity;
-
-    // Find all candidate first legs (routes near origin)
-    const firstLegCandidates = state.allStops
-        .map(stop => ({
-            stop,
-            distance: calculateDistance(
-                userLatLng[0], userLatLng[1],
-                stop.coordinates[1], stop.coordinates[0]
-            )
-        }))
-        .filter(item => item.distance <= MAX_DISTANCE_TO_PARADERO);
-
-    // Find all candidate second legs (routes near destination)
-    const secondLegCandidates = state.allStops
-        .map(stop => ({
-            stop,
-            distance: calculateDistance(
-                stop.coordinates[1], stop.coordinates[0],
-                destLatLng[0], destLatLng[1]
-            )
-        }))
-        .filter(item => item.distance <= MAX_DISTANCE_TO_DESTINATION);
-
-    // Find possible transfer points
-    firstLegCandidates.forEach(firstLeg => {
-        secondLegCandidates.forEach(secondLeg => {
-            // Must be different routes
-            if (firstLeg.stop.routeId === secondLeg.stop.routeId) return;
-
-            // Find nearest stops between routes (potential transfer points)
-            const transferPoints = findTransferPoints(
-                firstLeg.stop.routeId, 
-                secondLeg.stop.routeId
-            );
-
-            transferPoints.forEach(transfer => {
-                const totalDistance = 
-                    firstLeg.distance +
-                    transfer.distance +
-                    secondLeg.distance;
-
-                if (totalDistance < minTotalDistance) {
-                    minTotalDistance = totalDistance;
-                    bestCombination = {
-                        type: 'two-routes',
-                        firstLeg: {
-                            stop: firstLeg.stop,
-                            transfer: transfer.firstStop
-                        },
-                        secondLeg: {
-                            stop: secondLeg.stop,
-                            transfer: transfer.secondStop
-                        },
-                        distance: totalDistance,
-                        transportUnits: {
-                            firstRoute: getTransportUnits(firstLeg.stop.routeId),
-                            secondRoute: getTransportUnits(secondLeg.stop.routeId)
-                        }
-                    };
+                if (
+                    (direction === 'ida' && originIndex < destIndex) ||
+                    (direction === 'vuelta' && originIndex > destIndex)
+                ) {
+                    const combinedDistance = origin.distance + dest.distance;
+                    if (combinedDistance < minCombinedDistance) {
+                        minCombinedDistance = combinedDistance;
+                        bestRoute = {
+                            type: 'single',
+                            userStop: origin.stop,
+                            destStop: dest.stop,
+                            distance: combinedDistance,
+                            routeId: origin.stop.routeId,
+                            routeName: origin.stop.routeName,
+                            direction: direction,
+                            transportUnits: getTransportUnitsBetween(stops, originIndex, destIndex)
+                        };
+                    }
                 }
             });
         });
     });
 
-    return bestCombination;
+    return bestRoute;
+}function findBestSingleRoute(userLatLng, destLatLng) {
+    let bestRoute = null;
+    let minCombinedDistance = Infinity;
+
+    const routesMap = new Map();
+    state.allStops.forEach(stop => {
+        const key = `${stop.routeId}-${stop.direction}`;
+        if (!routesMap.has(key)) {
+            routesMap.set(key, []);
+        }
+        routesMap.get(key).push(stop);
+    });
+
+    routesMap.forEach((stops, routeKey) => {
+        stops.sort((a, b) => a.index - b.index);
+
+        // CAMBIO: obtener varios cercanos al usuario y destino
+        const originCandidates = findNearbyStops(userLatLng, stops, MAX_DISTANCE_TO_PARADERO);
+        const destCandidates = findNearbyStops(destLatLng, stops, MAX_DISTANCE_TO_DESTINATION);
+
+        originCandidates.forEach(origin => {
+            destCandidates.forEach(dest => {
+                const originIndex = origin.stop.index;
+                const destIndex = dest.stop.index;
+                const direction = origin.stop.direction;
+
+                if (
+                    (direction === 'ida' && originIndex < destIndex) ||
+                    (direction === 'vuelta' && originIndex > destIndex)
+                ) {
+                    const combinedDistance = origin.distance + dest.distance;
+                    if (combinedDistance < minCombinedDistance) {
+                        minCombinedDistance = combinedDistance;
+                        bestRoute = {
+                            type: 'single',
+                            userStop: origin.stop,
+                            destStop: dest.stop,
+                            distance: combinedDistance,
+                            routeId: origin.stop.routeId,
+                            routeName: origin.stop.routeName,
+                            direction: direction,
+                            transportUnits: getTransportUnitsBetween(stops, originIndex, destIndex)
+                        };
+                    }
+                }
+            });
+        });
+    });
+
+    return bestRoute;
+}
+// Case 2: Two Routes with Transfer
+function findTransferPointsWithOrder(firstStops, secondStops, maxTransferDist = 0.05) { // 50 metros
+    const transfers = [];
+    firstStops.forEach((stop1, idx1) => {
+        secondStops.forEach((stop2, idx2) => {
+            const dist = calculateDistance(stop1.coordinates[1], stop1.coordinates[0], stop2.coordinates[1], stop2.coordinates[0]);
+            if (dist <= maxTransferDist) {
+                transfers.push({
+                    stop1,
+                    stop2,
+                    idx1,
+                    idx2,
+                    distance: dist
+                });
+            }
+        });
+    });
+    return transfers;
+}
+function findBestTwoRouteCombination(userLatLng, destLatLng) {
+    let bestCombo = null;
+    let minDist = Infinity;
+
+    // Agrupa los paraderos por ruta y sentido
+    const routesMap = new Map();
+    state.allStops.forEach(stop => {
+        const key = `${stop.routeId}-${stop.direction}`;
+        if (!routesMap.has(key)) routesMap.set(key, []);
+        routesMap.get(key).push(stop);
+    });
+
+    // Para cada combinación de rutas (diferentes)
+    const routeKeys = Array.from(routesMap.keys());
+    for (let i = 0; i < routeKeys.length; i++) {
+        for (let j = 0; j < routeKeys.length; j++) {
+            if (i === j) continue;
+            const firstStops = routesMap.get(routeKeys[i]);
+            const secondStops = routesMap.get(routeKeys[j]);
+
+            // Encuentra paraderos cercanos al usuario y destino
+            const userCandidates = findNearbyStops(userLatLng, firstStops, MAX_DISTANCE_TO_PARADERO);
+            const destCandidates = findNearbyStops(destLatLng, secondStops, MAX_DISTANCE_TO_DESTINATION);
+            if (userCandidates.length === 0 || destCandidates.length === 0) continue;
+
+            // Busca puntos de transferencia válidos
+            const transfers = findTransferPointsWithOrder(firstStops, secondStops, 0.05);
+            if (transfers.length === 0) continue;
+
+            userCandidates.forEach(userObj => {
+                destCandidates.forEach(destObj => {
+                    transfers.forEach(transfer => {
+                        // Respeta el orden (ida: idx origen < idx transferencia < idx destino)
+                        const userIdx = userObj.stop.index;
+                        const destIdx = destObj.stop.index;
+                        const tIdx1 = transfer.idx1;
+                        const tIdx2 = transfer.idx2;
+
+                        // Verifica sentido en ambas rutas
+                        const dir1 = userObj.stop.direction;
+                        const dir2 = destObj.stop.direction;
+                        const validFirst = (dir1 === 'ida') ? (userIdx < tIdx1) : (userIdx > tIdx1);
+                        const validSecond = (dir2 === 'ida') ? (tIdx2 < destIdx) : (tIdx2 > destIdx);
+
+                        if (validFirst && validSecond) {
+                            const totalDist = userObj.distance + transfer.distance + destObj.distance;
+                            if (totalDist < minDist) {
+                                minDist = totalDist;
+                                bestCombo = {
+                                    type: 'two-routes',
+                                    firstLeg: {
+                                        stop: userObj.stop,
+                                        transfer: transfer.stop1
+                                    },
+                                    secondLeg: {
+                                        transfer: transfer.stop2,
+                                        stop: destObj.stop
+                                    },
+                                    distance: totalDist,
+                                    transportUnits: {
+                                        firstRoute: getTransportUnits(userObj.stop.routeId),
+                                        secondRoute: getTransportUnits(destObj.stop.routeId)
+                                    }
+                                };
+                            }
+                        }
+                    });
+                });
+            });
+        }
+    }
+    return bestCombo;
 }
 
 // Helper functions

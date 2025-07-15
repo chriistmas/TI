@@ -31,7 +31,7 @@ const icons = {
 
 // Markers -16.402990117104448, -71.52566314749663 unsa
 const markers = {
-    user: L.marker([-16.39295, -71.53837], { 
+    user: L.marker([-16.402990117104448, -71.52566314749663], { 
         icon: icons.user,
         draggable: true,
         autoPan: true

@@ -6,6 +6,7 @@ const MAX_DISTANCE_TO_PARADERO = 1; // km
 const MAX_DISTANCE_TO_DESTINATION = 5; // km
 const AVERAGE_BUS_SPEED = 20; // km/h for time estimation
 const NOMINATIM_URL = 'https://nominatim.openstreetmap.org/search';
+const LIMITE_CAMINATA = 0.5; // 500 metros
 
 // Map Initialization
 const map = L.map('map').setView(MAP_CENTER, MAP_ZOOM);

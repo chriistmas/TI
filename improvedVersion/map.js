@@ -496,11 +496,13 @@ function populateRoutesList() {
 }
 
 // Enhanced route finding logic
-function findBestRoute(userCoords, destCoords, useTwoRoutes = false) {
+function findBestRoute(userCoords, destCoords, routeOption = '1') {
     const userLatLng = convertToLatLng(userCoords);
     const destLatLng = convertToLatLng(destCoords);
 
-    if (useTwoRoutes) {
+    if (routeOption === '3') {
+        return findBestThreeRouteCombination(userLatLng, destLatLng);
+    } else if (routeOption === '2') {
         return findBestTwoRouteCombination(userLatLng, destLatLng);
     }
     return findBestSingleRoute(userLatLng, destLatLng);
@@ -709,6 +711,100 @@ function findBestTwoRouteCombination(userLatLng, destLatLng) {
     }
     return bestCombo;
 }
+function findBestThreeRouteCombination(userLatLng, destLatLng) {
+    let bestCombo = null;
+    let minDist = Infinity;
+
+    // Agrupa paraderos por ruta y sentido
+    const routesMap = new Map();
+    state.allStops.forEach(stop => {
+        const key = `${stop.routeId}-${stop.direction}`;
+        if (!routesMap.has(key)) routesMap.set(key, []);
+        routesMap.get(key).push(stop);
+    });
+
+    const routeKeys = Array.from(routesMap.keys());
+    for (let i = 0; i < routeKeys.length; i++) {
+        for (let j = 0; j < routeKeys.length; j++) {
+            if (j === i) continue;
+            for (let k = 0; k < routeKeys.length; k++) {
+                if (k === i || k === j) continue;
+                const firstStops = routesMap.get(routeKeys[i]);
+                const secondStops = routesMap.get(routeKeys[j]);
+                const thirdStops = routesMap.get(routeKeys[k]);
+
+                // Encuentra paraderos cercanos al usuario y destino
+                const userCandidates = findNearbyStops(userLatLng, firstStops, MAX_DISTANCE_TO_PARADERO);
+                const destCandidates = findNearbyStops(destLatLng, thirdStops, MAX_DISTANCE_TO_DESTINATION);
+                if (userCandidates.length === 0 || destCandidates.length === 0) continue;
+
+                // TRANSFERENCIA 1: entre ruta 1 y ruta 2
+                const transfers1 = findTransferPointsWithOrder(firstStops, secondStops, 0.05);
+                if (transfers1.length === 0) continue;
+
+                // TRANSFERENCIA 2: entre ruta 2 y ruta 3
+                const transfers2 = findTransferPointsWithOrder(secondStops, thirdStops, 0.05);
+                if (transfers2.length === 0) continue;
+
+                // Probar todas las combinaciones posibles
+                userCandidates.forEach(userObj => {
+                    destCandidates.forEach(destObj => {
+                        transfers1.forEach(t1 => {
+                            transfers2.forEach(t2 => {
+                                // Verifica que la transferencia sea posible (orden de los índices)
+                                const userIdx = userObj.stop.index;
+                                const t1Idx1 = t1.idx1;
+                                const t1Idx2 = t1.idx2;
+                                const t2Idx1 = t2.idx1;
+                                const t2Idx2 = t2.idx2;
+                                const destIdx = destObj.stop.index;
+
+                                const dir1 = userObj.stop.direction;
+                                const dir2 = t1.stop2.direction;
+                                const dir3 = destObj.stop.direction;
+
+                                const validFirst = (dir1 === 'ida') ? (userIdx < t1Idx1) : (userIdx > t1Idx1);
+                                const validSecond = (dir2 === 'ida') ? (t1Idx2 < t2Idx1) : (t1Idx2 > t2Idx1);
+                                const validThird = (dir3 === 'ida') ? (t2Idx2 < destIdx) : (t2Idx2 > destIdx);
+
+                                // Además, que la transferencia 1 y 2 estén en orden
+                                if (validFirst && validSecond && validThird) {
+                                    // Calcular distancia total
+                                    const totalDist = userObj.distance + t1.distance + t2.distance + destObj.distance;
+                                    if (totalDist < minDist) {
+                                        minDist = totalDist;
+                                        bestCombo = {
+                                            type: 'three-routes',
+                                            firstLeg: {
+                                                stop: userObj.stop,
+                                                transfer: t1.stop1
+                                            },
+                                            secondLeg: {
+                                                transferIn: t1.stop2,
+                                                transferOut: t2.stop1
+                                            },
+                                            thirdLeg: {
+                                                transfer: t2.stop2,
+                                                stop: destObj.stop
+                                            },
+                                            distance: totalDist,
+                                            transportUnits: {
+                                                firstRoute: getTransportUnits(userObj.stop.routeId),
+                                                secondRoute: getTransportUnits(t1.stop2.routeId),
+                                                thirdRoute: getTransportUnits(destObj.stop.routeId)
+                                            }
+                                        };
+                                    }
+                                }
+                            });
+                        });
+                    });
+                });
+            }
+        }
+    }
+    return bestCombo;
+}
 
 // Helper functions
 function findNearestStop(point, stops) {
@@ -790,7 +886,9 @@ function displayRoute(route) {
     markers.user.addTo(map);
     markers.search.addTo(map);
 
-    if (route.type === 'two-routes') {
+    if (route.type === 'three-routes') {
+        displayThreeRouteCombination(route);
+    } else if (route.type === 'two-routes') {
         displayTwoRouteCombination(route);
     } else {
         displaySingleRoute(route);
@@ -858,6 +956,22 @@ function displayTwoRouteCombination(route) {
         ...route,
         firstTransportName: routes.find(r => r.id === route.firstLeg.stop.routeId).name,
         secondTransportName: routes.find(r => r.id === route.secondLeg.stop.routeId).name
+    });
+}
+function displayThreeRouteCombination(route) {
+    // Dibuja primer segmento
+    drawRouteSegment(route.firstLeg.stop, route.firstLeg.transfer, route.firstLeg.stop.direction);
+    // Segundo segmento
+    drawRouteSegment(route.secondLeg.transferIn, route.secondLeg.transferOut, route.secondLeg.transferIn.direction);
+    // Tercer segmento
+    drawRouteSegment(route.thirdLeg.transfer, route.thirdLeg.stop, route.thirdLeg.stop.direction);
+
+    // Actualiza la información de la ruta
+    updateRouteInfo({
+        ...route,
+        firstTransportName: routes.find(r => r.id === route.firstLeg.stop.routeId).name,
+        secondTransportName: routes.find(r => r.id === route.secondLeg.transferIn.routeId).name,
+        thirdTransportName: routes.find(r => r.id === route.thirdLeg.stop.routeId).name
     });
 }
 
@@ -970,7 +1084,55 @@ function updateRouteInfo(route) {
     const timeMinutes = Math.round(timeHours * 60);
     domElements.routeTime.textContent = formatTime(timeMinutes);
     
-    if (route.type === 'two-routes') {
+    if (route.type === 'three-routes') {
+        domElements.routeSteps.innerHTML = `
+            <div class="step-item">
+                <i class="fas fa-bus step-icon"></i>
+                <div>
+                    <strong>${route.firstTransportName}</strong>
+                    <div>Embarcar en: ${route.firstLeg.stop.name}</div>
+                    <div class="transport-units">
+                        Unidades: ${route.transportUnits.firstRoute.map(unit => `<span class="unit-badge">${unit}</span>`).join('')}
+                    </div>
+                </div>
+            </div>
+            <div class="step-item transfer">
+                <i class="fas fa-exchange-alt step-icon"></i>
+                <div>
+                    <strong>Transferencia 1</strong>
+                    <div>En: ${route.firstLeg.transfer.name}</div>
+                </div>
+            </div>
+            <div class="step-item">
+                <i class="fas fa-bus step-icon"></i>
+                <div>
+                    <strong>${route.secondTransportName}</strong>
+                    <div>Embarcar en: ${route.secondLeg.transferIn.name}</div>
+                    <div class="transport-units">
+                        Unidades: ${route.transportUnits.secondRoute.map(unit => `<span class="unit-badge">${unit}</span>`).join('')}
+                    </div>
+                </div>
+            </div>
+            <div class="step-item transfer">
+                <i class="fas fa-exchange-alt step-icon"></i>
+                <div>
+                    <strong>Transferencia 2</strong>
+                    <div>En: ${route.secondLeg.transferOut.name}</div>
+                </div>
+            </div>
+            <div class="step-item">
+                <i class="fas fa-bus step-icon"></i>
+                <div>
+                    <strong>${route.thirdTransportName}</strong>
+                    <div>Desembarcar en: ${route.thirdLeg.stop.name}</div>
+                    <div class="transport-units">
+                        Unidades: ${route.transportUnits.thirdRoute.map(unit => `<span class="unit-badge">${unit}</span>`).join('')}
+                    </div>
+                </div>
+            </div>
+        `;
+
+    } else if (route.type === 'two-routes') {
         domElements.routeSteps.innerHTML = `
             <div class="step-item">
                 <i class="fas fa-bus step-icon"></i>
@@ -1164,15 +1326,15 @@ function handleFindRoute() {
         return;
     }
     
-    const useTwoRoutes = document.querySelector('input[name="routeOption"]:checked').value === '2';
-    showLoading(true);
-    
+    const routeOption = document.querySelector('input[name="routeOption"]:checked').value;
+    showLoading(true);   
+
     setTimeout(() => { // Prevent UI freezing
         try {
             const bestRoute = findBestRoute(
                 [userLatLng.lng, userLatLng.lat],
                 [destLatLng.lng, destLatLng.lat],
-                useTwoRoutes
+                routeOption
             );
             
             if (!bestRoute) {

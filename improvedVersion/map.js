@@ -493,6 +493,14 @@ function populateRoutesList() {
             toggle.classList.toggle('rotated');
         });
     });
+    document.querySelectorAll('input[name="selectedRoute"]').forEach(radio => {
+        radio.addEventListener('change', function() {
+            if (this.checked) {
+                const [routeId, direction] = this.value.split('-');
+                showSelectedRoute(parseInt(routeId), direction);
+            }
+        });
+    });
 }
 
 // Enhanced route finding logic
@@ -1375,6 +1383,43 @@ function toggleRouteList() {
     const icon = domElements.toggleRoutesBtn.querySelector('i');
     icon.classList.toggle('fa-chevron-down');
     icon.classList.toggle('fa-chevron-up');
+}
+function showSelectedRoute(routeId, direction) {
+    // Limpiar rutas anteriores
+    clearCurrentRoute();
+    
+    // Obtener los datos de la ruta
+    const routeData = state.routeLayers[routeId];
+    if (!routeData || !routeData[direction]) {
+        console.error('Route data not found:', routeId, direction);
+        return;
+    }
+    
+    // Mostrar la ruta KML
+    const routeLayer = routeData[direction].layer;
+    routeLayer.addTo(map);
+    state.dashedLines.push(routeLayer);
+    
+    // Mostrar todos los paraderos de esa dirección
+    const stops = routeData[direction].stops;
+    stops.forEach(stop => {
+        const marker = L.marker([stop.coordinates[1], stop.coordinates[0]], {
+            icon: icons.paradero
+        }).addTo(map)
+        .bindPopup(`
+            <strong>${stop.name}</strong><br>
+            ${stop.routeName} - ${direction.toUpperCase()}<br>
+            Unidades: ${stop.transportUnits?.join(', ') || 'No disponible'}
+        `);
+        state.addedMarkers.push(marker);
+    });
+    
+    // Ajustar el mapa para mostrar toda la ruta
+    map.fitBounds(routeLayer.getBounds());
+    
+    // Actualizar mensaje
+    const routeName = routes.find(r => r.id === routeId)?.name || 'Ruta desconocida';
+    showMessage(`Mostrando ruta: ${routeName} (${direction.toUpperCase()})`);
 }
 
 // Initialize the application
